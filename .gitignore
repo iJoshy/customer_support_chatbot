@@ -39,3 +39,8 @@ Thumbs.db
 
 # AWS
 .aws/
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
