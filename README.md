@@ -2,6 +2,9 @@
 
 A production-shaped hackathon prototype for Meridian Electronics support. The app connects an LLM-powered chat experience to Meridian's internal order MCP server so customers can search products, check inventory, authenticate with email/PIN, view order history, and place orders.
 
+Production URL: https://customer-support-capstone.web.app/
+
+
 The backend is **dual-cloud**: the same `backend/server.py` runs on **AWS Lambda + Bedrock + S3** or on **GCP Cloud Run + Vertex AI Gemini + Cloud Storage**, picked at startup by two env vars. Neither cloud is a "migration target" of the other — both are first-class deploy paths.
 
 ## What It Does
